@@ -7,9 +7,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      # install NPM dependencies and Cypress
+      # install NPM dependencies, Cypress and run tests
       # https://github.com/cypress-io/github-action
-      - name: Install 📦
+      - name: Run Tests 🧪
         uses: cypress-io/github-action@v2
         with:
           start: 'yarn web'

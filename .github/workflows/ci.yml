@@ -1,0 +1,16 @@
+name: e2e
+on: [push, pull_request]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # install NPM dependencies and Cypress
+      # https://github.com/cypress-io/github-action
+      - name: Install 📦
+        uses: cypress-io/github-action@v2
+        with:
+          start: 'yarn web'
+          wait-on: 'http://localhost:19006'

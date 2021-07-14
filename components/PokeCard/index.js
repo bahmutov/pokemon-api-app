@@ -7,6 +7,7 @@ import styles from './styles'
 const PokeCard = ({ name, navigation }) => {
   return (
     <TouchableOpacity
+      testID="poke-card"
       style={{ backgroundColor: 'transparent' }}
       onPress={() => navigation.navigate('Pokemon', { name })}
     >

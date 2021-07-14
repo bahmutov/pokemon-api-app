@@ -21,7 +21,9 @@ class Pokemon extends PureComponent {
           }}
           style={styles.pokemonImage}
         />
-        <Text style={styles.nameOfPokemon}>{route.params.name}</Text>
+        <Text testID="pokemon-name" style={styles.nameOfPokemon}>
+          {route.params.name}
+        </Text>
       </View>
     )
   }

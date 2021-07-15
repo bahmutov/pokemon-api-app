@@ -5,12 +5,10 @@ import { View, Text, Image } from 'react-native'
 import styles from './styles'
 
 class Pokemon extends PureComponent {
-  //Define your navigationOptions as a functino to have access to navigation properties, since it is static.
   static navigationOptions = ({ route }) => ({
-    //Use getParam function to get a value, also set a default value if it undefined.
     title: `${route.params.name} Info`,
   })
-  //Define your class component
+
   render() {
     const { route } = this.props
     return (

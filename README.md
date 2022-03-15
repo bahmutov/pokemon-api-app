@@ -1,4 +1,4 @@
-# pokemon-api-app ![cypress version](https://img.shields.io/badge/cypress-9.5.1-brightgreen)
+# pokemon-api-app ![cypress version](https://img.shields.io/badge/cypress-9.5.2-brightgreen)
 > Pokemon React Native App
 
 ![Application tested](./images/app.gif)

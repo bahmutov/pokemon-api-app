@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "cypress": "9.5.4",
+    "cypress": "9.6.0",
     "expo-cli": "^4.7.3",
     "prettier": "^2.3.2",
     "start-server-and-test": "^1.12.6"

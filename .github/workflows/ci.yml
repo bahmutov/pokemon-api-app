@@ -10,7 +10,7 @@ jobs:
       # install NPM dependencies, Cypress and run tests
       # https://github.com/cypress-io/github-action
       - name: Run Tests 🧪
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v7.4.0
         with:
           start: 'yarn web'
           wait-on: 'http://localhost:19006'
